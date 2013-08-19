@@ -1,1 +1,1 @@
-To build a node graph
+To build a linkedlist
