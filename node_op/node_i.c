@@ -48,6 +48,8 @@ int _init_node(NODE* node, int type, char* nme) {
 	node->node_nme=(char*)malloc(sizeof(strlen(nme)+1));
 	strcpy(node->node_nme,nme);
 	node->node_prop.type=-1;
+		//meta_property_unit
+		//record property info
 	node->node_prop.nme=NULL;
 	node->node_prop.val.c=NULL;
 	node->node_prop.val.n=NULL;
